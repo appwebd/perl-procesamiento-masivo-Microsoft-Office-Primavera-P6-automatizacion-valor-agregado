@@ -1,18 +1,18 @@
-#Perl-procesamiento-masivo-Microsoft-Office-Primavera-P6-automatizacion-valor-agregado
+# Perl-procesamiento-masivo-Microsoft-Office-Primavera-P6-automatizacion-valor-agregado
 Perl script para procesamiento masivo con archivo Microsoft Office Primavera P6 automatizacion valor agregado
 
-##Introducción
+## Introducción
 
 La idea principal es describir una metodología para aumentar la automatización en la manipulación de archivos (Microsoft Office u otros) y comenzar a crear valor agregado. No describiré el Framework de cadena de valor de Michael Porter publicado el 2009 o de cómo aplicar gestión de procesos de negocios, sino ideas más simples que tienen un gran valor por su eficiencia. Los elementos claves para esta transformación son:
 
 ![Elementos claves transformación](./aris-express/elementos-claves-transformacion.png  "Elementos claves en la transformación")
 
 
-##Objetivos
+## Objetivos
 
 Automatizar tareas repetitivas, evidenciar tareas, valor agregado.
 
-##Definiciones
+## Definiciones
 
 Proceso: Es un conjunto estructurado, coordinado de actividades automatizadas o no que se realizan en forma secuencial o paralela para lograr un propósito específico dentro de la organización. Un proceso es transversal, horizontal dentro del organigrama. Dentro de la gestión de procesos de negocios se postula: "Creando valor para el cliente, se crea valor para el negocio y creando valor para el negocio, se crea valor para los accionistas."
 
@@ -28,14 +28,14 @@ la entrega de servicios más completos y con una mejor experiencia para sus clie
 
 ![Mejora procesos](./aris-express/mejora-proceso.png  "Mejora procesos")
 
-##Audiencia / Escenario aplicable (a modo de ejemplo)
+## Audiencia / Escenario aplicable (a modo de ejemplo)
 
 Escenario aplicable es toda persona que dentro de sus actividades en forma sistemática realiza tareas repetitivas con la manipulación de archivos en cualquier formato. Supongamos a modo de ejemplo, que tenemos una oficina de estudio de propuestas en donde se desarrollan una gran cantidad de presupuestos en el área de minería y/o de construcción, en donde todo el análisis de precios unitarios se desarrollan en forma manual (previo a la carga de la metodología constructiva hacia el software Primavera P6 por ejemplo). El contexto del escenario aplicable es:
 
 
 ![Escenario aplicable de ejemplo](./aris-express/alcance.png  "Escenario aplicable ejemplo")
 
-##Comenzando el análisis
+## Comenzando el análisis
 
 Supongamos que tenemos la siguiente planilla de Analisis de precios unitarios en formato Microsoft Excel, en la que deseamos extraer todos los recursos (mano de obra, equipos y herramientas, materiales, subcontratos, otros costos):
 
@@ -43,7 +43,7 @@ Supongamos que tenemos la siguiente planilla de Analisis de precios unitarios en
 
 En forma paralela, se desarrolla el documento de la metodología constructiva a la que posteriormente se le agregan todos los recursos calculados del análisis de precios unitarios. Si en la planilla Microsoft excel en forma de libros están por itemizado, se puede desarrollar un guión (script) por ejemplo en lenguaje perl que permita revisar esta misma planilla para obtener todos los recursos para la carga de la metodología constructiva en el software Oracle Primavera P6.
 
-##Paradigma a romper
+## Paradigma a romper
 
 Cuando eliminas esas tareas repetitivas, comienza a crecer tu negocio en valor, comienzas a diseñar un resultado cuantificable, orientado hacia la satisfacción del cliente, comienzas en definitiva a entregar un mejor servicio. (Por la vía de la eficiencia económica y no por la vía de reducir costos a ciegas).
 
@@ -54,10 +54,10 @@ La animación anterior, corresponde a un ejemplo en lenguaje perl que permite re
 
 Para desarrollar esta automatización, se pueden emplear cualquier lenguaje que existe en el mercado, pero en mi experiencia, los más adecuados son Python y Perl. Esto como una solución, junto con el levantamiento de requerimiento, el desarrollo y las pruebas toman por lo general entre dos o tres dias.
 
-##Aplicación: Usos en otros formatos de archivos de Microsoft Office
+## Aplicación: Usos en otros formatos de archivos de Microsoft Office
 
 Esta tipo de solución, se puede aplicar con archivos Microsoft Office Word como búsqueda de patrones tags, Planillas contables para el procesamiento y validación y cálculo de información en cualquier tipo de situación en donde la transformación (algoritmo) sea conocido.
 
-##Valor Agregado
+## Valor Agregado
 
 Dónde comienza realmente percibir el valor agregado el cliente ? o mejor dicho dónde comienza a llamar la atención la propuesta de valor. La respuesta está en el conjunto de atributos que el productos o servicios logra entregar en forma explícita hacia el cliente como una experiencia excepcional, es decir satisfacer aquellos elementos que el cliente no percibía o no existe una propuesta similar (lo nuevo), mejoras en el desempeño (nivel de atención eficiente, mejoras en la tecnología), también la customización, el adaptar el producto a lo que el cliente necesita, hacer que el trabajo se realice (desarrollar trabajos en los que nadie quiere trabajar), mejoras en el diseño ya sea estético o funcional, diferenciación a través de marcas/status, precios, reducción de costos, reducción de riesgos, accesibilidad.
