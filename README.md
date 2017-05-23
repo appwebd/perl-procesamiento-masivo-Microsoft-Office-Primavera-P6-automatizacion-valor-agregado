@@ -56,7 +56,7 @@ Para desarrollar esta automatización, se pueden emplear cualquier lenguaje que 
 
 ## Aplicación: Usos en otros formatos de archivos de Microsoft Office
 
-Esta tipo de solución, se puede aplicar con archivos Microsoft Office Word como búsqueda de patrones tags, Planillas contables para el procesamiento y validación y cálculo de información en cualquier tipo de situación en donde la transformación (algoritmo) sea conocido.
+Este tipo de solución, se puede aplicar con archivos Microsoft Office Word como búsqueda de patrones tags, Planillas contables para el procesamiento y validación y cálculo de información en cualquier tipo de situación en donde la transformación (algoritmo) sea conocido. El eliminar o no los archivos, depende en gran medida de la cultura organizacional (personas), la arquitectura empresarial y de software que tenga la empresa.
 
 ## Valor Agregado
 
